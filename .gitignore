@@ -33,9 +33,9 @@ CMakeLists.txt.user
 assimp.pc
 assimp.aps
 revision.h
-contrib/zlib/zconf.h
+# contrib/zlib/zconf.h       # need for premake5
 contrib/zlib/zlib.pc
-include/assimp/config.h
+# include/assimp/config.h    # need for premake5
 unit.vcxproj.user
 
 # CMake
@@ -124,3 +124,13 @@ generated/*
 # 3rd party cloned repos/tarballs etc
 # tinyusdz repo, automatically cloned via CMake
 contrib/tinyusdz/autoclone
+
+
+# other
+.vs/
+bin/
+bin-int/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user

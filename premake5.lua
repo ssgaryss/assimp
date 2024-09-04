@@ -12,6 +12,10 @@ project "assimp"
         "code/**.h",
         "code/**.cpp",
         "contrib/irrXML/*",
+        "contrib/zlib/*.c",  -- zlib 源文件
+        "contrib/zlib/*.h",
+        "contrib/unzip/*.c",  -- minizip 源文件
+        "contrib/unzip/*.h"
     }
 
     includedirs
